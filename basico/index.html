@@ -1,4 +1,5 @@
 <html lang="pt-br">
+
 <head>
 	<meta charset="utf-8">
 
@@ -6,57 +7,93 @@
 	<title>Título da Narrativa</title>
 
 	<!-- Descrição do conteúdo do site e palavras-chave-->
-	<meta name="description" content="Contém a descrição que os mecanismos de busca utilizam para procura da página."/>
+	<meta name="description" content="Contém a descrição que os mecanismos de busca utilizam para procura da página." />
 
 	<!-- Fontes utilizadas no site-->
 	<link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
-	
+
 
 	<!-- Arquivo de estilo do site-->
-	<link rel = "stylesheet" href = "css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Arquivo JavaScript principal, com o conteúdo da narrativa-->
-	<script src = "js/main.js"></script>
+	<script src="js/main.js"></script>
 
 	<!-- Arquivo JavaScript com as caixas de alerta customizadas-->
 	<script src="js/sweetalert_min.js"></script>
 
 	<!-- Função para Redenderizar Ficha em Camada superior-->
 	<script type="text/javascript">
-		function toggleFAB()
-		{
-			var modal=document.getElementById('janelaModal');
-			var modalImg=document.getElementById("imgModal");
-			var captionTexto=document.getElementById("txtImg");
-			var btFechar=document.getElementsByClassName("fechar")[0];
+		function toggleFAB() {
+			var modal = document.getElementById('janelaModal');
+			var modalImg = document.getElementById("imgModal");
+			var captionTexto = document.getElementById("txtImg");
+			var btFechar = document.getElementsByClassName("fechar")[0];
 
 			//Trecho que carrega a imgaem da ficha de personagem e título (HMTL)
-			modal.style.display="block";
-			modalImg.src="img/ficha_em_branco.webp";
-			modalImg.alt="Ficha em branco do OPERA RPG";
-			captionTexto.innerHTML="Ficha em Branco";
+			modal.style.display = "block";
+			modalImg.src = "img/ficha_em_branco.webp";
+			modalImg.alt = "Ficha em branco do OPERA RPG";
+			captionTexto.innerHTML = "Ficha em Branco";
 
-			btFechar.onclick=function()
-			{
-				modal.style.display="none";
+			btFechar.onclick = function () {
+				modal.style.display = "none";
 			}
 		}
 	</script>
 </head>
+
 <body>
 	<!-- Conteúdo da página principal, divido em cabeçalho, content e botões-->
-	<div id = "cabecalho">
-	<center><img src = "img/imagem_cabecalho.webp"></center>
+	<div id="cabecalho">
+		<center><img class="ImgCabeca01" src="img/Imagem_Cabeca_teste.png"></center>
 	</div>
-	<div id = "content">
-	<h2>Bem vindo a esta narrativa interativa!</h2>
-	<h3>Aqui está o texto inicial da narrativa. O texto a seguir, é uma ideia para o texto de apresentação ao interator.</h3>
-    <h3>Em um jogo de interpretação com o mestre-de-jogo presente, ele geralmente não dá dicas sobre quais opções um personagem pode seguir, o mestre-de-jogo apenas vai contando a história e cabe ao jogador imaginar a situação, calcular as opções e falar a sua decisão ao mestre-de-jogo.</h3>
-    <h3>Adaptando essa conversa para a escrita, enquanto a história foi escrita, foram previstas algumas alternativas que um jogador imaginaria e você pode escolher qual caminho seguir escolhendo o texto a ser lido.</h3>
-	<center><input type="button" id = "button0" class="button button0" data-destination="introducao" name="choices" value="Comece a aventura!"></center>
-	<center><input type="button" id = "button1" class="button button1" data-destination="" name="choices" value="Outras Narrativas?"></center>
-	<center><input type="button" id = "button2" class="button button2" data-destination="instrucoes" name="choices" value="Quer saber como jogar?"></center>
-	<center><input type="button" id = "button3" class="button button3" data-destination="creditos" name="choices" value="Créditos"></center>
+	<div id="content">
+
+		<h2>Bem vindo a esta narrativa interativa!</h2>
+		
+		<!--Primeiro paragrafo-->
+		<h3>A história se desenrola na Idade Média e acompanha Ayla, uma jovem
+			misteriosa que, ao ser expulsa de sua família por não dominar os poderes
+			passados de geração em geração, embarca em uma jornada de autoconhecimento
+			e vingança.
+		</h3>
+		<!--Segundo paragrafo-->
+		<h3>Durante sua peregrinação, Ayla passa por diversas vilas, que são compostas
+			por casas de madeira e pedra com telhados de palha, dispostas em torno de uma
+			praça central. Essa praça geralmente abriga um poço comunitário e uma pequena
+			capela ou igreja. Há também uma taverna local e, em algumas vilas maiores, uma
+			feira ocasional onde comerciantes exibem seus produtos. A região é dominada por
+			colinas ondulantes cobertas por pastagens e pequenos bosques de carvalhos, faias
+			e pinheiros. Rios sinuosos cortam os vales, com pontes de pedra conectando as
+			vilas. As manhãs são frequentemente envoltas em névoa, e o som de sinos ecoa ao
+			longe, chamando os aldeões para o trabalho ou para as cerimônias religiosas.</h3>
+		<!--Terceiro paragrafo-->
+		<h3>Em cada uma dessas vilas, Ayla aprimora suas habilidades mágicas e
+			descobre como controlar sua magia de forma poderosa. Com sua magia, através da
+			música ela manipula pessoas para alcançar seus objetivos sombrios. Para atrair
+			jovens vítimas, organiza luxuosos bailes e festas, usando essas ocasiões para
+			preparar o elixir da vida, uma substância que simboliza sua força e ambição. Cada
+			festa marca sua despedida de uma vila, enquanto ela continua sua busca
+			incansável.</h3>
+		<!--Quarto paragrafo-->
+		<h3>
+			O maior objetivo de Ayla é encontrar a "Viela de Roda", o lendário instrumento
+			que, segundo a lenda, concedeu poderes à sua família antes mesmo de seu
+			nascimento. Ayla planeja destruí-lo, sabendo que isso enfraquecerá todos os
+			membros de sua linhagem, incluindo ela própria. Essa obsessão pelo elixir da vida
+			reflete seu dilema interno: a busca pela liberdade de um legado que a rejeitou, mas
+			que ainda define quem ela é.
+		</h3>
+
+		<center><input type="button" id="button0" class="button button0" data-destination="introducao" name="choices"
+				value="Comece a aventura!"></center>
+		<center><input type="button" id="button1" class="button button1" data-destination="" name="choices"
+				value="Outras Narrativas?"></center>
+		<center><input type="button" id="button2" class="button button2" data-destination="instrucoes" name="choices"
+				value="Quer saber como jogar?"></center>
+		<center><input type="button" id="button3" class="button button3" data-destination="creditos" name="choices"
+				value="Créditos"></center>
 	</div>
 
 	<!-- Botão para visualização da ficha de personagem-->
@@ -74,17 +111,18 @@
 
 	<!-- Trecho para reprodução de música-->
 	<center>
-	<div>
-	  <button onclick="document.getElementById('player').play()">Play</button>
-	  <button onclick="document.getElementById('player').pause()">Pause</button>
-	  <button onclick="document.getElementById('player').volume+=0.1">Aumentar volume</button>
-	  <button onclick="document.getElementById('player').volume-=0.1">Diminuir volume</button>
-	</div>
-	<!-- Trecho para carregar a música-->
-	<audio id="player" autoplay="autoplay" loop="loop">
-	  <source src="music/Trecho_Espionage__Fox_amp_Mew.mp3" type="audio/mp3" />
-	  seu navegador não suporta HTML5
-	</audio>
+		<div>
+			<button onclick="document.getElementById('player').play()">Play</button>
+			<button onclick="document.getElementById('player').pause()">Pause</button>
+			<button onclick="document.getElementById('player').volume+=0.1">Aumentar volume</button>
+			<button onclick="document.getElementById('player').volume-=0.1">Diminuir volume</button>
+		</div>
+		<!-- Trecho para carregar a música-->
+		<audio id="player" autoplay="autoplay" loop="loop">
+			<source src="music/Trecho_Espionage__Fox_amp_Mew.mp3" type="audio/mp3" />
+			seu navegador não suporta HTML5
+		</audio>
 	</center>
-</body> 
+</body>
+
 </html>
