@@ -48,6 +48,11 @@ h3 {
 	font-family: 'MedievalSharp', sans-serif;
 	text-align: justify;
 }
+p {
+	font-size: 1.3rem;
+	font-family: 'MedievalSharp', sans-serif;
+	text-align: center;
+}	
 
 /* configurações da caixa de texto principal */
 #content {
@@ -89,6 +94,9 @@ a.classe1:hover {
 	transition-duration: 0.4s;
 	cursor: pointer;
 	font-family: 'MedievalSharp', sans-serif;
+	height: 4rem;
+	width: 40rem;
+	border-radius: 1rem;
 }
 
 .button0 {
