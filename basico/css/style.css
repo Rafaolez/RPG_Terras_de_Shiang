@@ -24,8 +24,8 @@ body {
 
 /*Img cabeçario01*/
 .ImgCabeca01{
-	width: 800px;
-	height: 368px;
+	width: 80rem;
+	height: 37rem;
 	
 }
 
@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.2rem;
+	font-size: 1.9rem;
 	font-family: Constantia;
 	font-family: 'MedievalSharp', sans-serif;
 	text-align: justify;
@@ -58,7 +58,7 @@ p {
 #content {
 	background-color: white;
 	color: black;
-	width: 770px;
+	width: 80rem;
 	margin: 15px;
 	padding: 15px;
 	font-size: 1.5rem;
@@ -89,7 +89,7 @@ a.classe1:hover {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 1.5rem;
+	font-size: 1.9rem;
 	margin: 4px 2px;
 	transition-duration: 0.4s;
 	cursor: pointer;
