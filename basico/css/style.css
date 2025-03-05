@@ -24,7 +24,7 @@ body {
 
 /*Img cabeçario01*/
 .ImgCabeca01{
-	width: 80rem;
+	width: 65rem;
 	height: 37rem;
 	
 }
@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.9rem;
+	font-size: 1.7rem;
 	font-family: Constantia;
 	font-family: 'MedievalSharp', sans-serif;
 	text-align: justify;
@@ -58,7 +58,7 @@ p {
 #content {
 	background-color: white;
 	color: black;
-	width: 80rem;
+	width: 63rem;
 	margin: 15px;
 	padding: 15px;
 	font-size: 1.5rem;
@@ -66,6 +66,12 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Comfortaa', sans-serif;
+	background: rgb(255, 255, 255) url('../img/img_fundo_branco.jpeg');
+	background-position: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 /* formatação dos links */
